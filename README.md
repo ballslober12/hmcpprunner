@@ -1,9 +1,15 @@
-# hmcpprunner — Hotline Miami → C++ / SDL2
+# hmcpprunner another slop porject made by claude bye
 
 A C++17 + SDL2 port of the GameMaker Studio 1.4 project in
 [Pi0h1/HotlineMiami.gmx](https://github.com/Pi0h1/HotlineMiami.gmx) (`Source/GameMaker Studio 1.4`).
 
 Instead of hand-translating ~47,000 lines of GML, the port is a **GML → C++ transpiler plus an SDL2 runtime**:
+
+# Supported platforms
+netcast
+webos comming soon
+windows
+linux
 
 | Part | What it does |
 |---|---|
