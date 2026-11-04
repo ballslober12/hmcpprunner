@@ -1,0 +1,17 @@
+# generated from YOUR copy of the game by tools/build.py (derived from Dennaton's code/data: never commit)
+/gen/
+/data/
+/runtime/builtins.h
+/runtime/funcs.h
+
+# build output / runtime state
+build*/
+hm_work/
+work/
+*.o
+*.png
+*.log
+*.zip
+__pycache__/
+.vscode/
+.idea/
