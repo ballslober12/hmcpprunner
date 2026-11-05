@@ -7,11 +7,15 @@ and maybeh it works for any other gamemaker game too didint tested yet
 
 Instead of hand-translating ~47,000 lines of GML, the port is a **GML → C++ transpiler plus an SDL2 runtime**:
 
-# Supported platforms
-netcast
-webos comming soon
-windows
-linux
+| Supported Platform | Status |
+|---|---|
+| Linux | Playable |
+| Windows | Playable |
+| Netcast | Working but unplayable (1 FPM~) |
+| webOS | Soon maybeh |
+| Sony Bravia | in 4 weeks |
+
+| `runtime/` | The engine: dynamic `Value`, instances + event loop (begin step / alarms / keyboard / mouse / step / movement / collisions / end step / draw), views, tiles, depth-sorted rendering, surfaces, blend modes, bitmap fonts, audio mixer (WAV + OGG), paths, `mp_grid` A*, ds_lists, file I/O, `game_save`/`game_load`, and all 183 built-in functions the game calls |
 
 | Part | What it does |
 |---|---|
